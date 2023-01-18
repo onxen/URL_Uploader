@@ -3,15 +3,15 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5895581615:AAFXUNzqSqGTwitPaXfW4wpYDT4lpjZMFKs")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = int(os.environ.get("APP_ID", 21569673 ))
+    API_HASH = os.environ.get("API_HASH", "1ba68f53204b8add14973b7c7fdda399")
     # Get these values from my.telegram.org
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1126504307"))
     # Array to store users who are authorized to use the bot
     AUTH_USERS = list({int(x)
-                      for x in os.environ.get("AUTH_USERS", "0").split()})
+                      for x in os.environ.get("AUTH_USERS", "1126504307").split()})
     AUTH_USERS.append(OWNER_ID)
     # The download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
