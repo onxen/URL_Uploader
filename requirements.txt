@@ -5,3 +5,5 @@ pyrogram
 requests
 tgcrypto
 yt-dlp
+git+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+ffmpeg
